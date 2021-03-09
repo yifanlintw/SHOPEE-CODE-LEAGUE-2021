@@ -1,0 +1,23 @@
+# Import the necessary libraries
+import pandas as pd
+import numpy as np
+
+# load dataset
+data = pd.read_url("/Users/Yifanlin/Desktop/contacts.json")
+data.to_csv
+#print(data.head())
+#print(data.describe())
+
+
+# sort data
+print(data.sort_values(by='Email',ascending=False))
+#print(data[['OrderId','Email','Phone']])
+
+#stacked = data.stack()
+#data['ticket_trace'] = data['Contacts'].str.cat(data['Id'],sep="-")
+
+
+
+
+# Save file to desktop
+# data.to_excel('/Users/Yifanlin/Desktop/cons.xlsx')
