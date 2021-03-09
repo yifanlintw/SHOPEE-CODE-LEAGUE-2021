@@ -1,0 +1,30 @@
+<h1> 6 March - Data Analytics Challenge </h1>
+
+# Import libaries
+import pandas as pd
+import numpy as np
+import json 
+
+# Load dataset
+path = "https://drive.google.com/file/d/1FSEIBiRQfgJg2oyG80IOWrPuyc4U8YvZ/view?usp=sharing"
+df = pd.read_url(path)
+# Dataset is now stored in a Pandas Dataframe
+
+#data = pd.read_json("/shopee/contacts.json/")
+#df = data.to_csv
+#print(df.head())
+#print(data.describe())
+
+
+# sort data
+# print(data.sort_values(by='Email',ascending=False))
+#print(data[['OrderId','Email','Phone']])
+
+#stacked = data.stack()
+#data['ticket_trace'] = data['Contacts'].str.cat(data['Id'],sep="-")
+
+
+
+
+# Save file to desktop
+# data.to_excel('/Users/Yifanlin/Desktop/cons.xlsx')
